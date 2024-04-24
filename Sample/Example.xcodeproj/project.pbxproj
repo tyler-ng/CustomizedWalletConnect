@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC989092BD89B6A00F3603E /* WalletData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC989082BD89B6A00F3603E /* WalletData.swift */; };
+		84D9CCC32B9708E4001EDEE3 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 84D9CCC22B9708E4001EDEE3 /* Starscream */; };
+		CF0BCCE52AB0886400A2866C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BCCE42AB0886400A2866C /* ContentView.swift */; };
+		CF25F3A22B40C7070030B3DC /* Web3Modal in Frameworks */ = {isa = PBXBuildFile; productRef = CF25F3A12B40C7070030B3DC /* Web3Modal */; };
+		CF25F3A42B40C7070030B3DC /* Web3ModalUI in Frameworks */ = {isa = PBXBuildFile; productRef = CF25F3A32B40C7070030B3DC /* Web3ModalUI */; };
+		CF3B9AD02ACDBA3A00984D53 /* Web3Modal in Frameworks */ = {isa = PBXBuildFile; productRef = CF3B9ACF2ACDBA3A00984D53 /* Web3Modal */; };
+		CF3B9AD22ACDBA3A00984D53 /* Web3ModalUI in Frameworks */ = {isa = PBXBuildFile; productRef = CF3B9AD12ACDBA3A00984D53 /* Web3ModalUI */; };
+		CFA99B922AD0549F00EB5331 /* WCSocketFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA99B912AD0549F00EB5331 /* WCSocketFactory.swift */; };
+		CFD6A70F2ADE8DE2002B402C /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = CFD6A70E2ADE8DE2002B402C /* Atlantis */; };
+		CFD720782A9CC60600636CAF /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD720772A9CC60600636CAF /* ExampleApp.swift */; };
+		CFD7207A2A9CC60600636CAF /* ComponentLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD720792A9CC60600636CAF /* ComponentLibraryView.swift */; };
+		CFD7207C2A9CC60700636CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD7207B2A9CC60700636CAF /* Assets.xcassets */; };
+		CFD720802A9CC60700636CAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD7207F2A9CC60700636CAF /* Preview Assets.xcassets */; };
+		CFEAAF0A2B6C0B3A001565F5 /* InputConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAAF092B6C0B3A001565F5 /* InputConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC989082BD89B6A00F3603E /* WalletData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletData.swift; sourceTree = "<group>"; };
+		CF0BCCE42AB0886400A2866C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF533D032ADD411A00B3441C /* web3modal-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "web3modal-swift"; path = ..; sourceTree = "<group>"; };
+		CF74C5C62B323048007B0926 /* swift-web3modal-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-web3modal-Package.xctestplan"; sourceTree = "<group>"; };
+		CFA99B912AD0549F00EB5331 /* WCSocketFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCSocketFactory.swift; sourceTree = "<group>"; };
+		CFD6A7102ADE8E26002B402C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFD720742A9CC60600636CAF /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD720772A9CC60600636CAF /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
+		CFD720792A9CC60600636CAF /* ComponentLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLibraryView.swift; sourceTree = "<group>"; };
+		CFD7207B2A9CC60700636CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD7207D2A9CC60700636CAF /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
+		CFD7207F2A9CC60700636CAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configuration.xcconfig; sourceTree = "<group>"; };
+		CFEAAF092B6C0B3A001565F5 /* InputConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD720712A9CC60600636CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9CCC32B9708E4001EDEE3 /* Starscream in Frameworks */,
+				CF3B9AD02ACDBA3A00984D53 /* Web3Modal in Frameworks */,
+				CFD6A70F2ADE8DE2002B402C /* Atlantis in Frameworks */,
+				CF25F3A42B40C7070030B3DC /* Web3ModalUI in Frameworks */,
+				CF3B9AD22ACDBA3A00984D53 /* Web3ModalUI in Frameworks */,
+				CF25F3A22B40C7070030B3DC /* Web3Modal in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD7206B2A9CC60600636CAF = {
+			isa = PBXGroup;
+			children = (
+				CF74C5C62B323048007B0926 /* swift-web3modal-Package.xctestplan */,
+				CF533D032ADD411A00B3441C /* web3modal-swift */,
+				CFD720762A9CC60600636CAF /* Example */,
+				CFD720752A9CC60600636CAF /* Products */,
+				CFD720AF2A9CC71600636CAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD720752A9CC60600636CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD720742A9CC60600636CAF /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD720762A9CC60600636CAF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CFD6A7102ADE8E26002B402C /* Info.plist */,
+				CFA99B912AD0549F00EB5331 /* WCSocketFactory.swift */,
+				CFD720772A9CC60600636CAF /* ExampleApp.swift */,
+				CFD720792A9CC60600636CAF /* ComponentLibraryView.swift */,
+				CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */,
+				CF0BCCE42AB0886400A2866C /* ContentView.swift */,
+				CFD7207B2A9CC60700636CAF /* Assets.xcassets */,
+				CFD7207D2A9CC60700636CAF /* Example.entitlements */,
+				CFD7207E2A9CC60700636CAF /* Preview Content */,
+				CFEAAF092B6C0B3A001565F5 /* InputConfig.swift */,
+				2FC989082BD89B6A00F3603E /* WalletData.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CFD7207E2A9CC60700636CAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7207F2A9CC60700636CAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD720AF2A9CC71600636CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD720732A9CC60600636CAF /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD720992A9CC60800636CAF /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				CFD720702A9CC60600636CAF /* Sources */,
+				CFD720712A9CC60600636CAF /* Frameworks */,
+				CFD720722A9CC60600636CAF /* Resources */,
+				E330D833155D4B53B676C733 /* Upload Debug Symbols to Sentry */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			packageProductDependencies = (
+				CF3B9ACF2ACDBA3A00984D53 /* Web3Modal */,
+				CF3B9AD12ACDBA3A00984D53 /* Web3ModalUI */,
+				CFD6A70E2ADE8DE2002B402C /* Atlantis */,
+				CF25F3A12B40C7070030B3DC /* Web3Modal */,
+				CF25F3A32B40C7070030B3DC /* Web3ModalUI */,
+				84D9CCC22B9708E4001EDEE3 /* Starscream */,
+			);
+			productName = Example;
+			productReference = CFD720742A9CC60600636CAF /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD7206C2A9CC60600636CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CFD720732A9CC60600636CAF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CFD7206F2A9CC60600636CAF /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD7206B2A9CC60600636CAF;
+			packageReferences = (
+				CFD6A70D2ADE8DE2002B402C /* XCRemoteSwiftPackageReference "atlantis" */,
+				CF25F3A02B40C7070030B3DC /* XCLocalSwiftPackageReference ".." */,
+				84D9CCC12B9708E4001EDEE3 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			productRefGroup = CFD720752A9CC60600636CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD720732A9CC60600636CAF /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD720722A9CC60600636CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD720802A9CC60700636CAF /* Preview Assets.xcassets in Resources */,
+				CFD7207C2A9CC60700636CAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E330D833155D4B53B676C733 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script is responsable to upload debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\nexport SENTRY_ORG=walletconnect\nexport SENTRY_PROJECT=web3modal-sample\nERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD720702A9CC60600636CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAAF0A2B6C0B3A001565F5 /* InputConfig.swift in Sources */,
+				CFD7207A2A9CC60600636CAF /* ComponentLibraryView.swift in Sources */,
+				2FC989092BD89B6A00F3603E /* WalletData.swift in Sources */,
+				CFD720782A9CC60600636CAF /* ExampleApp.swift in Sources */,
+				CF0BCCE52AB0886400A2866C /* ContentView.swift in Sources */,
+				CFA99B922AD0549F00EB5331 /* WCSocketFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFD720972A9CC60800636CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD720982A9CC60800636CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CFD7209A2A9CC60800636CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_TEAM = D38BAMYMK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Web3Modal Sample";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Web3Modal requires access to your phone’s camera.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Atlantis would use Bonjour Service to discover Proxyman app from your local network.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metablox.app1.MetabloxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_ID = "$(PROJECT_ID)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD7209B2A9CC60800636CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEAAF082B6C0A58001565F5 /* Configuration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_TEAM = D38BAMYMK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Web3Modal Sample";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Web3Modal requires access to your phone’s camera.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Atlantis would use Bonjour Service to discover Proxyman app from your local network.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metablox.app1.MetabloxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_ID = "$(PROJECT_ID)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD7206F2A9CC60600636CAF /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD720972A9CC60800636CAF /* Debug */,
+				CFD720982A9CC60800636CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD720992A9CC60800636CAF /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD7209A2A9CC60800636CAF /* Debug */,
+				CFD7209B2A9CC60800636CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CF25F3A02B40C7070030B3DC /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84D9CCC12B9708E4001EDEE3 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		CFD6A70D2ADE8DE2002B402C /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84D9CCC22B9708E4001EDEE3 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D9CCC12B9708E4001EDEE3 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		CF25F3A12B40C7070030B3DC /* Web3Modal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Web3Modal;
+		};
+		CF25F3A32B40C7070030B3DC /* Web3ModalUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Web3ModalUI;
+		};
+		CF3B9ACF2ACDBA3A00984D53 /* Web3Modal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Web3Modal;
+		};
+		CF3B9AD12ACDBA3A00984D53 /* Web3ModalUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Web3ModalUI;
+		};
+		CFD6A70E2ADE8DE2002B402C /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFD6A70D2ADE8DE2002B402C /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CFD7206C2A9CC60600636CAF /* Project object */;
+}
